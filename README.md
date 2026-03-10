@@ -117,6 +117,10 @@ sudo apt update
 
 ```bash
  sudo apt install -y docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
+ sudo systemctl status docker
+ sudo docker run hello-world
+ sudo groupadd docker
+ sudo usermod -aG docker $USER
 ```
 
 ## Tmux
